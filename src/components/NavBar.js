@@ -5,7 +5,7 @@ export default function NavBar() {
     <header>
       <nav class="navbar">
         <img
-          src={process.env.PUBLIC_URL + "/Images/Logo.png"}
+          src={`${process.env.PUBLIC_URL}/images/Logo.png`}
           alt="Your Logo"
           className="logo"
         />
