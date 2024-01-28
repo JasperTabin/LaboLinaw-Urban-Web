@@ -17,7 +17,7 @@ export default function Projects() {
           <Link to="/Project1" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project1.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project1.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -29,7 +29,7 @@ export default function Projects() {
           <Link to="/Project2" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project2.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project2.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -41,7 +41,7 @@ export default function Projects() {
           <Link to="/Project3" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project3.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project3.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -53,7 +53,7 @@ export default function Projects() {
           <Link to="/Project4" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project4.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project4.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -65,7 +65,7 @@ export default function Projects() {
           <Link to="/Project5" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project5.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project5.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -77,7 +77,7 @@ export default function Projects() {
           <Link to="/Project6" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project6.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project6.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -89,7 +89,7 @@ export default function Projects() {
           <Link to="/Project7" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project7.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project7.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -101,7 +101,7 @@ export default function Projects() {
           <Link to="/Project8" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project8.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project8.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -113,7 +113,7 @@ export default function Projects() {
           <Link to="/Project9" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/Project9.jpg`}
+                src={`${process.env.PUBLIC_URL}/Images/Project9.jpg`}
                 alt="Image 1"
               />
             </div>
