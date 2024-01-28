@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LaboLinaw-Urban-Web/static/css/main.ca8b983f.css",
-    "main.js": "/LaboLinaw-Urban-Web/static/js/main.21e68bdb.js",
+    "main.js": "/LaboLinaw-Urban-Web/static/js/main.20b60ecc.js",
     "static/media/image 17.png": "/LaboLinaw-Urban-Web/static/media/image 17.970fefca61ebe65c6ae5.png",
     "static/media/image1.jpg": "/LaboLinaw-Urban-Web/static/media/image1.8a11186989ce424986d9.jpg",
     "static/media/image28.jpg": "/LaboLinaw-Urban-Web/static/media/image28.38efd368874ed0e25c2c.jpg",
@@ -12,10 +12,10 @@
     "static/media/image2.png": "/LaboLinaw-Urban-Web/static/media/image2.64d71860370c43b149ef.png",
     "index.html": "/LaboLinaw-Urban-Web/index.html",
     "main.ca8b983f.css.map": "/LaboLinaw-Urban-Web/static/css/main.ca8b983f.css.map",
-    "main.21e68bdb.js.map": "/LaboLinaw-Urban-Web/static/js/main.21e68bdb.js.map"
+    "main.20b60ecc.js.map": "/LaboLinaw-Urban-Web/static/js/main.20b60ecc.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8b983f.css",
-    "static/js/main.21e68bdb.js"
+    "static/js/main.20b60ecc.js"
   ]
 }
