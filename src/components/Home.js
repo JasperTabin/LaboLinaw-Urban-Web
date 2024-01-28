@@ -94,7 +94,7 @@ export default function Home() {
                 onclick="enlargeImage('Images/image 10.png', 'BEDROOM', 'Description for Bedroom.')"
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 10.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 10.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">BEDROOM</p>
@@ -105,7 +105,7 @@ export default function Home() {
                 onclick="enlargeImage('Images/image 7.png', 'LOUNGE ROOM', 'Description for Lounge Room.')"
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 7.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 7.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">LOUNGE ROOM</p>
@@ -116,7 +116,7 @@ export default function Home() {
                 onclick="enlargeImage('Images/image 9.png', 'KITCHEN', 'Description for Kitchen.')"
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 9.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 9.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">KITCHEN</p>
@@ -152,7 +152,7 @@ export default function Home() {
             <div class="images">
               <div onclick="enlargeImage('Images/image 11.png', 'BATHROOM', 'Aestethic bathroom design.')">
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 11.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 11.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">BATHROOM</p>
@@ -162,7 +162,7 @@ export default function Home() {
 
               <div onclick="enlargeImage('Images/image 12.png', 'LIVING ROOM', 'A simplistic living room design.')">
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 12.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 12.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">LIVING ROOM</p>
@@ -172,7 +172,7 @@ export default function Home() {
 
               <div onclick="enlargeImage('Images/image 15.png', 'DINING ROOM', 'A contemporary Dining room design.')">
                 <img
-                  src={process.env.PUBLIC_URL + "/Images/image 15.png"}
+                  src={`${process.env.PUBLIC_URL}/images/image 15.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">DINING ROOM</p>
@@ -194,7 +194,7 @@ export default function Home() {
                 <div class="image-button">
                   <div class="image">
                     <img
-                      src={process.env.PUBLIC_URL + "/Images/image 16.png"}
+                      src={`${process.env.PUBLIC_URL}/images/image 16.png`}
                       alt="DINING & KITCHEN"
                     />
                   </div>
