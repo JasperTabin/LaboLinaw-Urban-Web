@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Mono&display=swap");
+
+body {
+  background-color: #272829;
+}
+
+/* BANNER */
+.banner {
+  padding: 10rem 0;
+  background-image: url(/public/images/image27.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner__container {
+  text-align: center;
+  color: var(--white);
+  font-family: var(--header-font);
+}
+
+.banner__container h4 {
+  color: #ac915d;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.banner__container p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* PROJECT SECTION */
+
+.CategoryContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CategoryContainer h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+}
+
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.GalleryItem {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.ImageOverlay {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.ImageOverlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.ImageText {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 1;
+  height: auto;
+  max-height: 80px;
+  overflow: auto;
+}
+
+.ImageText h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.GalleryItem .ImageOverlay {
+  transform: none;
+}
+
+.GalleryItem .ImageOverlay img {
+  opacity: 1;
+}
+
+/* FOOTER */
+.content6 {
+  background: #1d1d1d;
+/*   display: flex;
+  flex-direction: column;
+  height: 303px;
+  align-items: center;
+  justify-content: center; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fddea2;
+  gap: 150px;
+  padding-bottom: 20px;
+}
+
+/* Upper Text */
+.footer .col h4 {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fddea2;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Line Below */
+.footer .col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: white;
+  height: 5%;
+  width: 50px;
+}
+
+/* Removes list style */
+.footer ul {
+  list-style: none;
+}
+
+/* Text Animation */
+.footer ul li {
+  padding: 1px;
+  transition: transform 0.3s ease;
+}
+
+.footer ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+
+.footer ul li a:hover {
+  transform: translateX(5px);
+  color: #ac915d;
+}
+
+/* Social Links */
+.Logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  color: #ac915d;
+  transform: scale(1.2); /* Increase size on hover */
+}
+
+.copyright {
+  color: white;
+  margin: 20px;
+}

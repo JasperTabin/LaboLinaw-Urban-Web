@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Mono&display=swap");
+
+body {
+  background-color: #272829;
+}
+
+.banner {
+  padding: 10rem 0;
+  background-image: url(/public/images/image21.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--header-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h4 {
+  color: #ac915d;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
+
+.display__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.display__container img {
+  width: 368px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.display__col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.display__content {
+  padding: 4rem 0;
+  flex: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.display__col:nth-child(1) .display__content,
+.display__col:nth-child(3) .display__content {
+  background-color: #1f2021;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.display__col:nth-child(2) .display__content {
+  background-color: #292a2b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.display__content h4 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.display__content p {
+  font-style: italic;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.Images {
+  width: 100%;
+  display: flex;
+}
+
+:root {
+  --primary-color: #f5f4f2;
+  --text-dark: #ac915d;
+  --text-light: #78716c;
+  --white: #ffffff;
+  --max-width: 1200px;
+  --header-font: "Lora", serif;
+}
+
+.content6 {
+  background: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  height: 303px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fddea2;
+  gap: 150px;
+}
+
+.footer .col h4 {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fddea2;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer .col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: white;
+  height: 5%;
+  width: 50px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  padding: 1px;
+  transition: transofmr 0.3 ease;
+}
+
+.footer ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+
+.footer ul li {
+  transition: transform 0.3s ease;
+}
+
+.footer ul li a:hover {
+  transform: translateX(5px);
+  color: #ac915d;
+}
+
+.Logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  color: #ac915d;
+  transform: scale(1.2);
+}
+
+.copyright {
+  color: white;
+}
+
+@media (width < 900px) {
+  .about__container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
+
+  .about__image {
+    grid-area: 1/1/2/2;
+  }
+
+  .display__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .display__col:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (width < 600px) {
+  .link {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 20rem;
+  }
+
+  .header__content {
+    bottom: -20rem;
+  }
+
+  .display__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .display__col:nth-child(3) {
+    display: flex;
+  }
+}
