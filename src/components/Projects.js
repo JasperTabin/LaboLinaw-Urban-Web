@@ -17,7 +17,7 @@ export default function Projects() {
           <Link to="/Project1" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/Project1.jpg`}
+                src={require("./Images/Project1.jpg").default}
                 alt="Image 1"
               />
             </div>
