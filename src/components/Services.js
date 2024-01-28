@@ -12,9 +12,8 @@ export default function Services() {
       <div class="section__container display__container">
         <div class="display__col">
           <img
-            className="Images"
-            src={`${process.env.PUBLIC_URL}/Images/image22.jpg`}
-            alt="display"
+            src={`${process.env.PUBLIC_URL}/images/image8.png`}
+            alt="DINING & KITCHEN"
           />
 
           <div class="display__content">
