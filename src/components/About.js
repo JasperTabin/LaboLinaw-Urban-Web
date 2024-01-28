@@ -25,7 +25,10 @@ export default function About() {
         <div class="featured" id="FEATURED">
           <div class="rectangle">
             <div class="image-container">
-              <img src={"./Images/image29.jpg"} alt="Your Image" />
+              <img
+                src={`${process.env.PUBLIC_URL}/Images/image29.jpg`}
+                alt="Your Image"
+              />
             </div>
             <div class="text-container">
               <h2>What We Do</h2>
@@ -56,7 +59,7 @@ export default function About() {
             </div>
             <div class="image-container">
               <img
-                src={process.env.PUBLIC_URL + "/Images/image30.jpg"}
+                src={`${process.env.PUBLIC_URL}/Images/image30.jpg`}
                 alt="Your Image"
               />
             </div>
@@ -69,9 +72,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image34.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image34.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>GEROLIA, JOHN GABRIEL, SAN ANDRES</h3>
@@ -102,9 +106,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image35.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image35.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>RAGILES, TRISTAN BREN, VARGAS</h3>
@@ -135,9 +140,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image36.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image36.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>DE LUNA, MART DEXTER, SASI</h3>
@@ -168,9 +174,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image37.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image37.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>SARMIENTO, JERICO J, QUERIJERO</h3>
@@ -201,9 +208,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image38.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image38.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>TABIN, JASPER, PALPAL-LATOC</h3>
@@ -234,9 +242,10 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={process.env.PUBLIC_URL + "/Images/image39.png"}
-            alt="Team Member 1"
+            src={`${process.env.PUBLIC_URL}/Images/image39.jpg`}
+            alt="Your Image"
           />
+
           <div class="overlay">
             <div class="top-section">
               <h3>CRESENCIO, RODOLFO MIGUEL, CARREON</h3>

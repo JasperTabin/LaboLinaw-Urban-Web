@@ -13,9 +13,10 @@ export default function Services() {
         <div class="display__col">
           <img
             className="Images"
-            src={process.env.PUBLIC_URL + "/Images/image22.jpg"}
+            src={`${process.env.PUBLIC_URL}/Images/image22.jpg`}
             alt="display"
           />
+
           <div class="display__content">
             <h4>Agricultural Design</h4>
             <p>
@@ -25,7 +26,7 @@ export default function Services() {
           </div>
           <img
             className="Images"
-            src={process.env.PUBLIC_URL + "/Images/image23.jpg"}
+            src={`${process.env.PUBLIC_URL}/Images/image23.jpg`}
             alt="display"
           />
         </div>
@@ -39,9 +40,10 @@ export default function Services() {
           </div>
           <img
             className="Images"
-            src={process.env.PUBLIC_URL + "/Images/image24.jpg"}
+            src={`${process.env.PUBLIC_URL}/Images/image24.jpg`}
             alt="display"
           />
+
           <div class="display__content">
             <h4>Interior Design</h4>
             <p>
@@ -53,9 +55,10 @@ export default function Services() {
         <div class="display__col">
           <img
             className="Images"
-            src={process.env.PUBLIC_URL + "/Images/image25.jpg"}
+            src={`${process.env.PUBLIC_URL}/Images/image25.jpg`}
             alt="display"
           />
+
           <div class="display__content">
             <h4>Supervision Services</h4>
             <p>
@@ -65,7 +68,7 @@ export default function Services() {
           </div>
           <img
             className="Images"
-            src={process.env.PUBLIC_URL + "/Images/image26.jpg"}
+            src={`${process.env.PUBLIC_URL}/Images/image26.jpg`}
             alt="display"
           />
         </div>

@@ -17,7 +17,7 @@ export default function Projects() {
           <Link to="/Project1" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_1.jpg"}
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_1.jpg`}
                 alt="Image 1"
               />
             </div>
@@ -29,8 +29,8 @@ export default function Projects() {
           <Link to="/Project2" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_2.jpg"}
-                alt="Image 2"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_2.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -41,8 +41,8 @@ export default function Projects() {
           <Link to="/Project3" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_3.jpg"}
-                alt="Image 3"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_3.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -53,8 +53,8 @@ export default function Projects() {
           <Link to="/Project4" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_4.jpg"}
-                alt="Image 4"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_4.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -65,8 +65,8 @@ export default function Projects() {
           <Link to="/Project5" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_5.jpg"}
-                alt="Image 5"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_5.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -77,8 +77,8 @@ export default function Projects() {
           <Link to="/Project6" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_6.jpg"}
-                alt="Image 6"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_6.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -89,8 +89,8 @@ export default function Projects() {
           <Link to="/Project7" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_7.jpg"}
-                alt="Image 7"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_7.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -101,8 +101,8 @@ export default function Projects() {
           <Link to="/Project8" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_8.jpg"}
-                alt="Image 8"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_8.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
@@ -113,8 +113,8 @@ export default function Projects() {
           <Link to="/Project9" className="GalleryItem">
             <div className="ImageOverlay">
               <img
-                src={process.env.PUBLIC_URL + "/Images/Project/Project_9.jpg"}
-                alt="Image 9"
+                src={`${process.env.PUBLIC_URL}/Images/Project/Project_9.jpg`}
+                alt="Image 1"
               />
             </div>
             <div className="ImageText">
