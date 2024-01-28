@@ -26,7 +26,7 @@ export default function About() {
           <div class="rectangle">
             <div class="image-container">
               <img
-                src={`${process.env.PUBLIC_URL}/images/A6.png`}
+                src={`${process.env.PUBLIC_URL}/images/A8.png`}
                 alt="Your Image"
               />
             </div>
@@ -72,7 +72,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A3.png`}
+            src={`${process.env.PUBLIC_URL}/images/A1.png`}
             alt="Your Image"
           />
 
@@ -106,7 +106,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A4.png`}
+            src={`${process.env.PUBLIC_URL}/images/A2.png`}
             alt="Your Image"
           />
 
@@ -140,7 +140,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A4.png`}
+            src={`${process.env.PUBLIC_URL}/images/A3.png`}
             alt="Your Image"
           />
 
@@ -174,7 +174,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A5.png`}
+            src={`${process.env.PUBLIC_URL}/images/A4.png`}
             alt="Your Image"
           />
 
@@ -208,7 +208,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A6.png`}
+            src={`${process.env.PUBLIC_URL}/images/A5.png`}
             alt="Your Image"
           />
 
@@ -242,7 +242,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/image39.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/A6.jpg`}
             alt="Your Image"
           />
 
