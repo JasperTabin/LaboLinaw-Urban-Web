@@ -26,7 +26,7 @@ export default function About() {
           <div class="rectangle">
             <div class="image-container">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/image29.jpg`}
+                src={`${process.env.PUBLIC_URL}/images/image29.jpg`}
                 alt="Your Image"
               />
             </div>
@@ -59,7 +59,7 @@ export default function About() {
             </div>
             <div class="image-container">
               <img
-                src={`${process.env.PUBLIC_URL}/Images/image30.jpg`}
+                src={`${process.env.PUBLIC_URL}/images/image30.jpg`}
                 alt="Your Image"
               />
             </div>
@@ -72,7 +72,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image34.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image34.jpg`}
             alt="Your Image"
           />
 
@@ -106,7 +106,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image35.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image35.jpg`}
             alt="Your Image"
           />
 
@@ -140,7 +140,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image36.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image36.jpg`}
             alt="Your Image"
           />
 
@@ -174,7 +174,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image37.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image37.jpg`}
             alt="Your Image"
           />
 
@@ -208,7 +208,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image38.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image38.jpg`}
             alt="Your Image"
           />
 
@@ -242,7 +242,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/Images/image39.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/image39.jpg`}
             alt="Your Image"
           />
 
