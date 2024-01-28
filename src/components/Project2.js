@@ -78,7 +78,7 @@ export default function Project2() {
             data-title="Portrait 1"
             data-description="Description 1"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P7.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P7.jpg"} />
           </div>
 
           <div
@@ -86,7 +86,7 @@ export default function Project2() {
             data-title="Portrait 2"
             data-description="Description 2"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P8.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P8.jpg"} />
           </div>
 
           <div
@@ -94,7 +94,7 @@ export default function Project2() {
             data-title="Portrait 3"
             data-description="Description 3"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P9.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P9.jpg"} />
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ export default function Project2() {
             data-title="Landscape 1"
             data-description="Description 4"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P5.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P5.jpg"} />
           </div>
 
           <div
@@ -114,7 +114,7 @@ export default function Project2() {
             data-title="Landscape 2"
             data-description="Description 5"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P3.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P3.jpg"} />
           </div>
 
           <div
@@ -122,7 +122,7 @@ export default function Project2() {
             data-title="Landscape 3"
             data-description="Description 6"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project2/P1.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project2/P1.jpg"} />
           </div>
         </div>
       </div>
