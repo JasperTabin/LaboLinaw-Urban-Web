@@ -82,8 +82,8 @@ export default function Home() {
                 class="image"
                 onclick="enlargeImage('Images/image 8.png', 'DINING & KITCHEN', 'Description for Dining & Kitchen.')"
               >
-                <img
-                  src={`${process.env.PUBLIC_URL}/images/image8.png`}
+                 <img
+                  src={`${process.env.PUBLIC_URL}/images/image10.png`}
                   alt="DINING & KITCHEN"
                 />
                 <p class="text2">DINING & KITCHEN</p>
