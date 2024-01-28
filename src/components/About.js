@@ -25,10 +25,7 @@ export default function About() {
         <div class="featured" id="FEATURED">
           <div class="rectangle">
             <div class="image-container">
-              <img
-                src={process.env.PUBLIC_URL + "/Images/image29.jpg"}
-                alt="Your Image"
-              />
+              <img src={"./Images/image29.jpg"} alt="Your Image" />
             </div>
             <div class="text-container">
               <h2>What We Do</h2>
