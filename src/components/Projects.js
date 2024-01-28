@@ -16,10 +16,11 @@ export default function Projects() {
         <div class="Gallery">
           <Link to="/Project1" className="GalleryItem">
             <div className="ImageOverlay">
-              <img
-                src={`${process.env.PUBLIC_URL}/Images/Project/P1.jpg`}
-                alt="Image 1"
-              />
+            <img
+  src={`${process.env.PUBLIC_URL}/images/Project/P1.jpg`}
+  alt="Image 1"
+/>
+
             </div>
             <div className="ImageText">
               <h2>AUSTRALIAN MINIMALIST GROUND UP</h2>
