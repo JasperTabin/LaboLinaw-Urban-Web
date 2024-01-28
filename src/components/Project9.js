@@ -24,22 +24,22 @@ export default function Project9() {
     <>
       <div ref={flickityRef} className="main-carousel">
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P1.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P1.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P2.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P2.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P3.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P3.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P4.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P4.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P5.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P5.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project9/P6.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project9/P6.jpg"} />
         </div>
       </div>
 

@@ -26,7 +26,7 @@ export default function About() {
           <div class="rectangle">
             <div class="image-container">
               <img
-                src={`${process.env.PUBLIC_URL}/images/A8.png`}
+                src={`${process.env.PUBLIC_URL}/images/A8.jpg`}
                 alt="Your Image"
               />
             </div>
@@ -59,7 +59,7 @@ export default function About() {
             </div>
             <div class="image-container">
               <img
-                src={`${process.env.PUBLIC_URL}/images/A7.png`}
+                src={`${process.env.PUBLIC_URL}/images/A7.jpg`}
                 alt="Your Image"
               />
             </div>
@@ -242,7 +242,7 @@ export default function About() {
 
         <div class="team-member">
           <img
-            src={`${process.env.PUBLIC_URL}/images/A6.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/A6.png`}
             alt="Your Image"
           />
 

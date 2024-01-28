@@ -24,22 +24,22 @@ export default function Project8() {
     <>
       <div ref={flickityRef} className="main-carousel">
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P1.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P1.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P2.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P2.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P3.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P3.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P4.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P4.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P5.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P5.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project8/P6.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project8/P6.jpg"} />
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Project8() {
             data-title="Portrait 1"
             data-description="Description 1"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P8.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P8.jpg"} />
           </div>
 
           <div
@@ -85,7 +85,7 @@ export default function Project8() {
             data-title="Portrait 2"
             data-description="Description 2"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P9.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P9.jpg"} />
           </div>
 
           <div
@@ -93,7 +93,7 @@ export default function Project8() {
             data-title="Portrait 3"
             data-description="Description 3"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P10.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P10.jpg"} />
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function Project8() {
             data-title="Landscape 1"
             data-description="Description 4"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P4.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P4.jpg"} />
           </div>
 
           <div
@@ -113,7 +113,7 @@ export default function Project8() {
             data-title="Landscape 2"
             data-description="Description 5"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P3.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P3.jpg"} />
           </div>
 
           <div
@@ -121,7 +121,7 @@ export default function Project8() {
             data-title="Landscape 3"
             data-description="Description 6"
           >
-            <img src={process.env.PUBLIC_URL + "/Images/Project8/P5.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project8/P5.jpg"} />
           </div>
         </div>
       </div>

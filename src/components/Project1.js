@@ -27,19 +27,19 @@ export default function Project1() {
           <img src={process.env.PUBLIC_URL + "/images/Project1/P1.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project1/P2.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project1/P2.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project1/P3.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project1/P3.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project1/P4.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project1/P4.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project1/p5.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project1/p5.jpg"} />
         </div>
         <div class="carousel-cell">
-          <img src={process.env.PUBLIC_URL + "/Images/Project1/P6.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/images/Project1/P6.jpg"} />
         </div>
       </div>
 
@@ -74,15 +74,15 @@ export default function Project1() {
       <div class="Project">
         <div class="Project-Image">
           <div class="ProjectItem image" data-title="Image 1">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P7.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P7.jpg"} />
           </div>
 
           <div class="ProjectItem image" data-title="Image 2">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P8.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P8.jpg"} />
           </div>
 
           <div class="ProjectItem image" data-title="Image 3">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P9.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P9.jpg"} />
           </div>
         </div>
       </div>
@@ -90,15 +90,15 @@ export default function Project1() {
       <div class="Projects">
         <div class="Project-Images">
           <div class="ProjectItems image" data-title="Image 4">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P10.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P10.jpg"} />
           </div>
 
           <div class="ProjectItems image" data-title="Image 5">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P12.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P12.jpg"} />
           </div>
 
           <div class="ProjectItems image" data-title="Image 6">
-            <img src={process.env.PUBLIC_URL + "/Images/Project1/P12.jpg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Project1/P12.jpg"} />
           </div>
         </div>
       </div>
