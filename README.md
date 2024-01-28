@@ -2,4 +2,9 @@
 
 https://jaspertabin.github.io/LaboLinaw-Urban-Web/
 
-Problem on github pages, not loading pages but when loaded locally okay naman.
+## GROUP MEMBERS (LABO LINAW)
+SARMIENTO, JERICO J, QUERIJERO 
+CRESENCIO, RODOLFO MIGUEL, 
+CARREON DE LUNA, MART DEXTER, SASI 
+TABIN, JASPER, PALPAL-LATOC 
+GEROLIA, JOHN GABRIEL, SAN ANDRES
