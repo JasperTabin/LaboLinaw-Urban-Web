@@ -1,18 +1,19 @@
 import "../styles/NavBar.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <header>
-      <nav class="navbar">
+      <nav className="navbar">
         <img
           src={`${process.env.PUBLIC_URL}/images/Logo.png`}
           alt="Your Logo"
           className="logo"
         />
-        <div class="nav-links">
+        <div className="nav-links">
           <ul>
             <li>
-              <Link to="./">HOME</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
               <Link to="/Projects">PROJECTS</Link>
