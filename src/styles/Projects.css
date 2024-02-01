@@ -171,14 +171,14 @@ body {
   height: auto;
 }
 
-/* FOOTER */
+/* FOOTER SECTION */
 .content6 {
   background: #1d1d1d;
-  display: flex;
+  /*   display: flex;
   flex-direction: column;
   height: 303px;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .footer {
@@ -219,7 +219,7 @@ body {
 /* Text Animation */
 .footer ul li {
   padding: 1px;
-  transition: transofmr 0.3 ease;
+  transition: transform 0.3s ease;
 }
 
 .footer ul li:not(:last-child) {
@@ -235,17 +235,12 @@ body {
   display: block;
 }
 
-.footer ul li {
-  transition: transform 0.3s ease;
-}
-
 .footer ul li a:hover {
   transform: translateX(5px);
   color: #ac915d;
 }
 
 /* Social Links */
-
 .Logos {
   display: flex;
   flex-direction: column;
@@ -272,4 +267,32 @@ body {
 
 .copyright {
   color: white;
+  margin: 20px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack columns in mobile view */
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* Adjust the gap between stacked columns */
+  }
+
+  .footer .col {
+    max-width: 100%; /* Allow columns to take full width on smaller screens */
+  }
+
+  .footer .col h4::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Logos {
+    margin-top: 20px; /* Add space between content and social links in mobile view */
+  }
+
+  .social-links a {
+    margin: 0 8px 8px 0; /* Adjust margin for better spacing on smaller screens */
+  }
 }

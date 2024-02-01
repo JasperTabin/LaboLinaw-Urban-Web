@@ -46,6 +46,7 @@ body {
   flex: 1;
   padding: 20px;
 }
+
 .Title h1 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -56,12 +57,11 @@ form {
   display: grid;
   gap: 15px;
   max-width: 400px;
-  /* width: 100%; */
 }
 
 input,
 textarea {
-  width: 470px;
+  width: 100%; /* Make the input fields full width */
   padding: 10px;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -86,14 +86,31 @@ input[type="submit"]:hover {
   background-color: #272829;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .inquiries-container {
+    flex-direction: column; /* Stack elements in column for mobile view */
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%; /* Make both sides full width */
+    order: 1; /* Change the order of the sides */
+  }
+
+  form {
+    max-width: none; /* Remove max-width for the form */
+  }
+}
+
 /* FOOTER SECTION */
 .content6 {
   background: #1d1d1d;
-  display: flex;
+  /*   display: flex;
   flex-direction: column;
   height: 303px;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .footer {
@@ -134,7 +151,7 @@ input[type="submit"]:hover {
 /* Text Animation */
 .footer ul li {
   padding: 1px;
-  transition: transofmr 0.3 ease;
+  transition: transform 0.3s ease;
 }
 
 .footer ul li:not(:last-child) {
@@ -150,17 +167,12 @@ input[type="submit"]:hover {
   display: block;
 }
 
-.footer ul li {
-  transition: transform 0.3s ease;
-}
-
 .footer ul li a:hover {
   transform: translateX(5px);
   color: #ac915d;
 }
 
 /* Social Links */
-
 .Logos {
   display: flex;
   flex-direction: column;
@@ -187,4 +199,32 @@ input[type="submit"]:hover {
 
 .copyright {
   color: white;
+  margin: 20px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack columns in mobile view */
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* Adjust the gap between stacked columns */
+  }
+
+  .footer .col {
+    max-width: 100%; /* Allow columns to take full width on smaller screens */
+  }
+
+  .footer .col h4::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Logos {
+    margin-top: 20px; /* Add space between content and social links in mobile view */
+  }
+
+  .social-links a {
+    margin: 0 8px 8px 0; /* Adjust margin for better spacing on smaller screens */
+  }
 }

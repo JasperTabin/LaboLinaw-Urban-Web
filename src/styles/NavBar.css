@@ -1,3 +1,5 @@
+/* NavBar.css */
+
 .navbar {
   top: 0;
   left: 0;
@@ -44,4 +46,56 @@
 
 .nav-links ul li a.active {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links ul.show {
+    display: flex;
+  }
+
+  .nav-links ul li {
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* New media query to hide the burger icon on larger screens */
+@media only screen and (min-width: 769px) {
+  .icon {
+    display: none; /* Hide the burger icon on larger screens */
+  }
+
+  /* .nav-links {
+    display: flex !important; 
+  } */
 }
