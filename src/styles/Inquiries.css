@@ -87,6 +87,7 @@ input[type="submit"]:hover {
 }
 
 /* Media query for smaller screens */
+/* Media query for smaller screens */
 @media (max-width: 768px) {
   .inquiries-container {
     flex-direction: column; /* Stack elements in column for mobile view */
@@ -101,7 +102,14 @@ input[type="submit"]:hover {
   form {
     max-width: none; /* Remove max-width for the form */
   }
+
+  /* Add styles to adjust the map size on mobile */
+  .map-container {
+    max-width: 100%; /* Adjust the map width to fit the screen */
+    overflow: hidden; /* Hide any overflow if the map exceeds the container */
+  }
 }
+
 
 /* FOOTER SECTION */
 .content6 {

@@ -14,7 +14,7 @@
   }
 }
 
-.main {
+/* .main {
   width: 100%;
   height: 80px;
   display: flex;
@@ -26,7 +26,7 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
-}
+} */
 
 .navbar {
   top: 0;
@@ -154,12 +154,50 @@
   color: #eee;
 }
 
-.content .main-text .text5 {
-  color: white;
-  font-family: Times New Roman;
-  font-size: 16px;
-  margin-top: 110px;
-  padding-left: 499px;
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .content .bg-text {
+    text-align: left; /* Align the text to the right on smaller screens */
+    left: 30px;
+    top: 5px; /* Adjust the top spacing */
+    position: absolute; /* Position absolutely within the container */
+    width: auto; /* Allow the width to be determined by content */
+  }
+
+  .content .bg-text .text {
+    font-size: 170px; /* Set the same font size as desktop design */
+    line-height: 1.2;
+  }
+
+  .content .main-text {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  .content .main-text .text1 {
+    font-size: 16px;
+  }
+
+  .content .main-text .text2 {
+    margin-top: -10px;
+    padding-left: 20px;
+    font-size: 48px;
+  }
+
+  .content .main-text .text3 {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+
+  .content .main-text .text4 {
+    font-size: 12px;
+    padding-top: 15px;
+  }
 }
 
 /* Content 2 */
@@ -332,6 +370,62 @@
   text-align: justify;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content2 {
+    height: auto; /* Adjust height to auto for better responsiveness */
+  }
+
+  .content2 .main-text2 .text1 {
+    padding-top: 20px; /* Adjust padding for better spacing */
+    font-size: 24px; /* Adjust font size for better readability on smaller screens */
+    text-align: center;
+  }
+
+  .content2 .main-text2 .text2 {
+    width: 100%; /* Make the width full for better responsiveness */
+    padding-left: 20px; /* Adjust padding for better spacing */
+    font-size: 18px; /* Adjust font size for better readability on smaller screens */
+  }
+
+  .content2 .main-text2 .text3 {
+    width: 100%; /* Make the width full for better responsiveness */
+    padding-right: 20px; /* Adjust padding for better spacing */
+    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+  }
+
+  .content2 .main-text2 .text-group {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text within the container */
+  }
+
+  .content2 .main-text2 .text2,
+  .content2 .main-text2 .text3 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .content2 .vector1,
+  .content2 .vector2 {
+    display: none; /* Hide vectors on smaller screens */
+  }
+
+  .content2 .images {
+    flex-direction: column; /* Stack images in a column for better spacing */
+    padding: 20px 0; /* Adjust padding for better spacing */
+    gap: 20px; /* Adjust gap between images */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .content2 .images img {
+    max-width: 100%;
+  }
+}
+
+
 /* Content3 */
 
 /* Temporary Background image */
@@ -421,9 +515,60 @@
   font-size: 17px;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content3 {
+    height: auto;
+  }
+
+  .content3 .main-text3 .text1 {
+    font-size: 36px;
+    padding-right: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .content3 .vector {
+    display: none;
+  }
+
+  .content3 .images {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .content3 .images .text2 {
+    top: 50%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .content3 .description-title,
+  .content3 .description {
+    text-align: center;
+  }
+
+  /* Adjust spacing between images */
+  .content3 .images {
+    gap: 20px; /* Adjust the gap between images */
+  }
+
+  /* Adjust padding for better spacing */
+  .content3 .images div {
+    margin-bottom: 20px; /* Adjust margin between image containers */
+  }
+
+  /* Adjust spacing for description */
+  .content3 .description-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+
+
 /* Content 4 */
 
-/* Background */
 .content4 {
   align-items: center;
   background: #201f1f;
@@ -434,7 +579,7 @@
   display: flex;
   flex-direction: column;
   padding-left: 83px;
-  padding-top: 38.34px;
+  padding: 40px;
 }
 
 .content4 .columns {
@@ -462,7 +607,7 @@
   color: #dbb56c;
   font-family: Times New Roman;
   font-size: 30px;
-  padding-right: 62px;
+  
 }
 
 .content4 .image {
@@ -525,8 +670,91 @@
   font-size: 15px;
 }
 
-/* CONTENT 5 SECTION */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content4 {
+    height: auto; /* Adjust height for smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+  }
 
+  .content4 .columns {
+    flex-direction: column; /* Stack columns in a vertical layout on smaller screens */
+    align-items: center; /* Center columns horizontally */
+    gap: 20px; /* Adjust gap between columns for smaller screens */
+  }
+
+  .content4 .column2 {
+    width: 100%; /* Make column2 full width on smaller screens */
+    text-align: center; /* Center text within column2 */
+  }
+
+  .content4 .columns .text1,
+  .content4 .column2 .text2 {
+    width: 100%; /* Make text1 and text2 full width on smaller screens */
+    text-align: center; /* Center text within columns */
+    font-size: 18px; /* Adjust font size for text1 and text2 on smaller screens */
+  }
+
+  .content4 .image {
+    width: 100%; /* Make the image full width on smaller screens */
+  }
+
+  .content4 .image-button {
+    flex-direction: column; /* Stack image and button in a vertical layout on smaller screens */
+    align-items: center; /* Center image and button horizontally */
+    gap: 20px; /* Adjust gap between image and button for smaller screens */
+  }
+
+  .btn {
+    width: 100%; /* Make the button full width on smaller screens */
+    font-size: 16px; /* Adjust font size for the button on smaller screens */
+  }
+
+  .content4 .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center boxes horizontally */
+    gap: 20px; /* Adjust gap between boxes for smaller screens */
+  }
+
+  .content4 .boxes .box {
+    width: calc(50% - 10px); /* Adjust box width for two boxes in a row with gap */
+    max-width: 250px; /* Set a maximum width for the boxes */
+    background: #333334; /* Background color for boxes */
+    border-radius: 15px; /* Add border-radius for rounded corners */
+    
+    text-align: center; /* Center text within boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    
+  }
+
+  .content4 .column2 .boxes p,
+  .content4 .column2 .boxes .items {
+    text-align: center; /* Center text within boxes */
+    color: white; /* Text color for paragraphs in boxes */
+    font-family: Times New Roman;
+    font-size: 16px; /* Adjust font size for paragraphs in boxes on smaller screens */
+    padding-left: 0; /* Remove padding-left for paragraphs in boxes */
+  }
+
+  .content4 .column2 .boxes ul {
+    padding-left: 0; /* Remove padding to the left for the list items */
+    list-style: none; /* Remove default list styles */
+  }
+
+  .content4 .column2 .boxes ul li {
+    margin-bottom: 8px; /* Add margin between list items */
+  }
+}
+
+
+
+
+
+/* CONTENT 5 SECTION */
 .content5 {
   position: relative;
   height: 390px;
@@ -594,7 +822,17 @@
   transition: transform 0.2s ease;
 }
 
-/* FOOTER SECTION */
+
+@media only screen and (max-width: 767px) {
+  
+
+  .content5 .text {
+    padding-top: 20px;
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+}
+
+
 
 /* FOOTER SECTION */
 .content6 {

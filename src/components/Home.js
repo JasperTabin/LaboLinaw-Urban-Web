@@ -4,8 +4,6 @@ import "../styles/style.css";
 export default function Home() {
   return (
     <>
-      <div class="main">
-        <div class="container">
           <div class="content">
             <div class="bg-text">
               <h1 class="text">01</h1>
@@ -19,11 +17,6 @@ export default function Home() {
                 choose the right colors according to our own taste.
               </p>
               <p class="text4">Read More</p>
-              <p class="text5">
-                Serenity in Shades <br />
-                <br />
-                Discover the tranquil beauty of this monochrome living room.
-              </p>
             </div>
           </div>
 
@@ -407,8 +400,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
     </>
   );
 }
