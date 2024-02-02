@@ -695,7 +695,7 @@
   .content4 .column2 .text2 {
     width: 100%; /* Make text1 and text2 full width on smaller screens */
     text-align: center; /* Center text within columns */
-    font-size: 18px; /* Adjust font size for text1 and text2 on smaller screens */
+    font-size: 13px; /* Adjust font size for text1 and text2 on smaller screens */
   }
 
   .content4 .image {
@@ -717,7 +717,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center boxes horizontally */
-    gap: 20px; /* Adjust gap between boxes for smaller screens */
+    gap: 10px; /* Adjust gap between boxes for smaller screens */
   }
 
   .content4 .boxes .box {
@@ -736,7 +736,7 @@
     text-align: center; /* Center text within boxes */
     color: white; /* Text color for paragraphs in boxes */
     font-family: Times New Roman;
-    font-size: 16px; /* Adjust font size for paragraphs in boxes on smaller screens */
+    font-size: 12px; /* Adjust font size for paragraphs in boxes on smaller screens */
     padding-left: 0; /* Remove padding-left for paragraphs in boxes */
   }
 
@@ -824,11 +824,9 @@
 
 
 @media only screen and (max-width: 767px) {
-  
-
   .content5 .text {
     padding-top: 20px;
-    font-size: 25px; /* Adjust font size for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
   }
 }
 
