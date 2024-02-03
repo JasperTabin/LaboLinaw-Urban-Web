@@ -1,7 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+/* body {
+  overflow-x: hidden;
+} */
 
 @keyframes fadeInUp {
   from {
@@ -13,72 +18,6 @@
     transform: translateY(0);
   }
 }
-
-/* .main {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.container {
-  min-height: 100vh;
-  width: 100%;
-  position: relative;
-} */
-
-.navbar {
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  position: absolute;
-  display: flex;
-  padding: 0px 4%;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0;
-  background: rgba(13, 12, 12, 0.6);
-}
-
-.logo {
-  max-height: 100px;
-  height: 75px;
-}
-
-.nav-links {
-  flex: 1;
-  text-align: right;
-}
-
-.nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-
-/* Text */
-.nav-links ul li a {
-  color: gray;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: color 0.3s ease;
-}
-
-.nav-links ul li a:hover {
-  color: #ac915d; /* Change color on hover */
-}
-
-.nav-links ul li a.active {
-  color: white;
-}
-
-/* .nav-links ul li a:hover {
-    color: white;
-  } */
 
 /* Front Page Text */
 .content {
@@ -162,15 +101,15 @@
   }
 
   .content .bg-text {
-    text-align: left; /* Align the text to the right on smaller screens */
+    text-align: left;
     left: 30px;
-    top: 5px; /* Adjust the top spacing */
-    position: absolute; /* Position absolutely within the container */
-    width: auto; /* Allow the width to be determined by content */
+    top: 5px;
+    position: absolute;
+    width: auto;
   }
 
   .content .bg-text .text {
-    font-size: 170px; /* Set the same font size as desktop design */
+    font-size: 170px;
     line-height: 1.2;
   }
 
@@ -373,31 +312,31 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .content2 {
-    height: auto; /* Adjust height to auto for better responsiveness */
+    height: auto;
   }
 
   .content2 .main-text2 .text1 {
-    padding-top: 20px; /* Adjust padding for better spacing */
-    font-size: 24px; /* Adjust font size for better readability on smaller screens */
+    padding-top: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
   .content2 .main-text2 .text2 {
-    width: 100%; /* Make the width full for better responsiveness */
-    padding-left: 20px; /* Adjust padding for better spacing */
-    font-size: 18px; /* Adjust font size for better readability on smaller screens */
+    width: 100%;
+    padding-left: 20px;
+    font-size: 18px;
   }
 
   .content2 .main-text2 .text3 {
-    width: 100%; /* Make the width full for better responsiveness */
-    padding-right: 20px; /* Adjust padding for better spacing */
-    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    width: 100%;
+    padding-right: 20px;
+    font-size: 14px;
   }
 
   .content2 .main-text2 .text-group {
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Center text within the container */
+    text-align: center;
   }
 
   .content2 .main-text2 .text2,
@@ -409,13 +348,13 @@
 
   .content2 .vector1,
   .content2 .vector2 {
-    display: none; /* Hide vectors on smaller screens */
+    display: none;
   }
 
   .content2 .images {
-    flex-direction: column; /* Stack images in a column for better spacing */
-    padding: 20px 0; /* Adjust padding for better spacing */
-    gap: 20px; /* Adjust gap between images */
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 20px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -424,7 +363,6 @@
     max-width: 100%;
   }
 }
-
 
 /* Content3 */
 
@@ -501,8 +439,6 @@
   opacity: 1;
 }
 
-/*  */
-
 .content3 .description-title {
   color: white;
   padding-top: 17px;
@@ -548,24 +484,19 @@
     text-align: center;
   }
 
-  /* Adjust spacing between images */
   .content3 .images {
-    gap: 20px; /* Adjust the gap between images */
+    gap: 20px;
   }
 
-  /* Adjust padding for better spacing */
   .content3 .images div {
-    margin-bottom: 20px; /* Adjust margin between image containers */
+    margin-bottom: 20px;
   }
 
-  /* Adjust spacing for description */
   .content3 .description-title {
     padding-top: 10px;
     padding-bottom: 5px;
   }
 }
-
-
 
 /* Content 4 */
 
@@ -607,7 +538,6 @@
   color: #dbb56c;
   font-family: Times New Roman;
   font-size: 30px;
-  
 }
 
 .content4 .image {
@@ -637,8 +567,8 @@
 .btn:hover {
   background-color: #dbb56c;
   color: black;
-  transform: scale(1.05); /* Scale up the button slightly on hover */
-  transition: transform 0.2s ease; /* Smooth scale transition */
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
 }
 
 .content4 .boxes {
@@ -673,86 +603,80 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .content4 {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
+    align-items: center;
+    justify-content: center;
   }
 
   .content4 .columns {
-    flex-direction: column; /* Stack columns in a vertical layout on smaller screens */
-    align-items: center; /* Center columns horizontally */
-    gap: 20px; /* Adjust gap between columns for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .content4 .column2 {
-    width: 100%; /* Make column2 full width on smaller screens */
-    text-align: center; /* Center text within column2 */
+    width: 100%;
+    text-align: center;
   }
 
   .content4 .columns .text1,
   .content4 .column2 .text2 {
-    width: 100%; /* Make text1 and text2 full width on smaller screens */
-    text-align: center; /* Center text within columns */
-    font-size: 13px; /* Adjust font size for text1 and text2 on smaller screens */
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
   }
 
   .content4 .image {
-    width: 100%; /* Make the image full width on smaller screens */
+    display: none; /* Hide the image on mobile screens */
   }
 
   .content4 .image-button {
-    flex-direction: column; /* Stack image and button in a vertical layout on smaller screens */
-    align-items: center; /* Center image and button horizontally */
-    gap: 20px; /* Adjust gap between image and button for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .btn {
-    width: 100%; /* Make the button full width on smaller screens */
-    font-size: 16px; /* Adjust font size for the button on smaller screens */
+    width: 100%;
+    font-size: 16px;
   }
 
   .content4 .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center boxes horizontally */
-    gap: 10px; /* Adjust gap between boxes for smaller screens */
+    justify-content: center;
+    gap: 10px;
   }
 
   .content4 .boxes .box {
-    width: calc(50% - 10px); /* Adjust box width for two boxes in a row with gap */
-    max-width: 250px; /* Set a maximum width for the boxes */
-    background: #333334; /* Background color for boxes */
-    border-radius: 15px; /* Add border-radius for rounded corners */
-    
-    text-align: center; /* Center text within boxes */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    
+    width: calc(50% - 10px);
+    max-width: 250px;
+    background: #333334;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .content4 .column2 .boxes p,
   .content4 .column2 .boxes .items {
-    text-align: center; /* Center text within boxes */
-    color: white; /* Text color for paragraphs in boxes */
+    text-align: center;
+    color: white;
     font-family: Times New Roman;
-    font-size: 12px; /* Adjust font size for paragraphs in boxes on smaller screens */
-    padding-left: 0; /* Remove padding-left for paragraphs in boxes */
+    font-size: 12px;
+    padding-left: 0;
   }
 
   .content4 .column2 .boxes ul {
-    padding-left: 0; /* Remove padding to the left for the list items */
-    list-style: none; /* Remove default list styles */
+    padding-left: 0;
+    list-style: none;
   }
 
   .content4 .column2 .boxes ul li {
-    margin-bottom: 8px; /* Add margin between list items */
+    margin-bottom: 8px;
   }
 }
-
-
-
-
 
 /* CONTENT 5 SECTION */
 .content5 {
@@ -822,24 +746,16 @@
   transition: transform 0.2s ease;
 }
 
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .content5 .text {
     padding-top: 20px;
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 18px;
   }
 }
-
-
 
 /* FOOTER SECTION */
 .content6 {
   background: #1d1d1d;
-  /*   display: flex;
-  flex-direction: column;
-  height: 303px;
-  align-items: center;
-  justify-content: center; */
 }
 
 .footer {
@@ -923,7 +839,7 @@
 
 .social-links a:hover {
   color: #ac915d;
-  transform: scale(1.2); /* Increase size on hover */
+  transform: scale(1.2);
 }
 
 .copyright {
@@ -934,14 +850,14 @@
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
   .footer {
-    flex-direction: column; /* Stack columns in mobile view */
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px; /* Adjust the gap between stacked columns */
+    gap: 20px;
   }
 
   .footer .col {
-    max-width: 100%; /* Allow columns to take full width on smaller screens */
+    max-width: 100%;
   }
 
   .footer .col h4::before {
@@ -950,10 +866,10 @@
   }
 
   .Logos {
-    margin-top: 20px; /* Add space between content and social links in mobile view */
+    margin-top: 20px;
   }
 
   .social-links a {
-    margin: 0 8px 8px 0; /* Adjust margin for better spacing on smaller screens */
+    margin: 0 8px 8px 0;
   }
 }
