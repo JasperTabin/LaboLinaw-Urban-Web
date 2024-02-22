@@ -1,6 +1,6 @@
 ## LINK FOR LIVE WEBSITE
 
-https://jaspertabin.github.io/LaboLinaw-Urban-Web/
+[https://jaspertabin.github.io/LaboLinaw-Urban-Web/](https://tabinjasper-bsit32e1.github.io/LaboLinaw-Urban-Web/)
 
 ## GROUP MEMBERS (LABO LINAW)
 SARMIENTO, JERICO J, QUERIJERO 
